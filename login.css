@@ -1,6 +1,11 @@
 body {
+    background-image: image-set(
+        url('./textBlur.jpg')
+ 
+    );
+    background-position: center;
+    object-fit: cover;
 
-    
 /*     background: linear-gradient(#000000, #000000); */
 min-width: 300px;
 }
@@ -26,11 +31,19 @@ left:90px;top:-75px;border:5px solid #000000;border-radius:30px;text-align:cente
 
 
 .content{
+    color: #fff;
     align-content: center;
     text-align: center;
     
 }
 
+.login h1{
+    color: #fff;
+    text-align: center;
+}
+
 table{
     width: 100%;
+    color: #fff;
+    text-align: center;
 }
